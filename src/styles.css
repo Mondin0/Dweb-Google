@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+button:focus{
+    border-style: solid;    
+    border-color: blue;
+    border-width: 1px;
+}
+div{
+    width: 100%;
+}
+input{
+    all:unset
+}
+
+img.redimension-menu{
+    width: 15px;
+    height: 15px;
+}
+.img-profile{
+    size: 25px;
+    border-radius: 50%;
+}
+.seccion-logo{
+    display: flex;
+    padding-top: 15%;
+}
+.logo{
+    width: 250px;
+    margin: 0px auto;
+}
+.nav-container ul, li{
+    display: flex;    
+    list-style: none;
+    padding: 8px;    
+    align-items: center;
+    flex-direction: row;
+    float: right;
+}
+
+.buscador{    
+    border-style: groove;
+    border-color: rgb(224, 224, 224);
+    border-width: 1px; 
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50%;
+}
+.buscador:focus{
+    box-shadow: 1px 1px 5px black;
+}
+input.image-buscar {
+	width: 12px;
+	border: 0px;
+	position: relative;
+	top:1px;
+    transform:translateX(30px);
+}
+input.image-voice {
+	width: 25px;
+	border: 0px;
+	position: relative;
+	top:1px;
+    transform:translateX(-40px);
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.div-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;    
+}
+.boton-buscar{
+    font-size: 15px;
+    border: none;
+    margin-right: 18%;
+    padding: 10px;
+    border-radius: 5px;
+    position:absolute;       
+}
+.search-div{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+}
+.boton-suerte{
+    font-size: 15px;
+    border: none;
+    /*margin: 5px;*/
+    margin-right: -18%;
+    padding: 10px;
+    border-radius: 5px;
+    position:absolute;       
+}
+.div-pais{
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.div-footer{
+    display: flex;
+    flex-direction:row;    
+    padding-inline: 20px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.nav-footer-left{    
+    flex-basis: fit-content;    
+    padding: 5px;    
+    margin-right: auto;
+}
+.nav-footer-right{
+    flex-basis: fit-content;
+    padding: 5px;    
+}
