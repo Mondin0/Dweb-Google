@@ -33,10 +33,10 @@ img.redimension-menu{
 }
 .seccion-logo{
     display: flex;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 .logo{
-    width: 250px;
+    width: 270px;
     margin: 0px auto;
 }
 .nav-container ul, li{
